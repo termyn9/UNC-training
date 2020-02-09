@@ -8,11 +8,9 @@ public class Fish {
     private String name;
     private Long foodLike;
 
-    public Fish(long fishId3, Long id){ this.id = id;}
+    public Fish(){};
 
-    public Fish(Long foodLike){
-        this.foodLike = foodLike;
-    }
+    public Fish(Long id){this.id = id;}
 
     public Fish(Long id, String name, Long foodLike){
         this.id = id;
